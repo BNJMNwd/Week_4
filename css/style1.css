@@ -1,20 +1,9 @@
 /*=====Exotic Animal css=======*/
 
 
-.container {
-	max-width: 100%;
-	background-color: rgba(170, 172, 178, 0.8);	
-	}
-
+/*========Header============*/
 
 	
-body {
-	font-family: 'Marcellus', serif;
-	background-image: url("../images/fur.png");
-	background-color: #a08462;
-	}
-
-
 h1 {
 	text-indent: -990000px;
 	}
@@ -27,163 +16,80 @@ h1 img {
 
 header {
 	width: 100%;
+	/*height: 150px;*/  
 	background-color: #aaacb1;
 	border-bottom: solid 2px #133062;
 	}
 
-
-
-	
-p {
-	color: #794a28;
-	font-size: 1em;
-	line-height: 1.2em;
-	margin-left: auto;
-	margin-right: auto;	
-	text-align: center;
-	clear: left; 
-	}
-
-.largep {
-	font-size: 1.3em;
-	line-height: 1.4em
-	}
-	
-.container img (:not-first-child) {
-	margin-top: 10px;
-	-moz-box-shadow: 	1px 1px 5px #66676c, -1px -1px 5px #66676c; 
-	-o-box-shadow:		1px 1px 5px #66676c, -1px -1px 5px #66676c; 
-	-webkit-box-shadow: 1px 1px 5px #66676c, -1px -1px 5px #66676c;
-	box-shadow: 		1px 1px 5px #66676c, -1px -1px 5px #66676c; 	
-			}
-		
-.container img  {
-	margin-bottom:10px;
-	}	
-
-h2, h3, h4 {
-	font-family: 'Caesar Dressing', cursive;
-	color: #133062;
-	text-align: center;
-	}
-	
-h2 {
-	font-size: 1.8em;
-	}
-	
- h3, h4 {
-	font-size: 1.4em;
-	}
-
-
-/*ul {
-	min-width: 60.240963855% 600px;
-	color: #794a28;
-}
-*/
-
-
-/*========Header============*/
-
 	
 /*====== nav ======*/
-
+.at a{
+	color: green;
+	font-size: 1.3em;
+	}
 
 #nav_bar_mobile {
 	display: none;
 	}
 
-#at a{
-	color: #red;
-	font-size: 1.1em;
-	}
 
-.bt ul li{
+.menu ul li{
 	float:left;
-	margin: 0;
-	padding: 0;
 	list-style:none;
 	font-family: 'Caesar Dressing', cursive;
+	position:relative;
+	font-size: 1em;
 	}
 
-.bt li a {
+.menu li a {
 	display:block;
-	padding-right: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
 	line-height: 2.5em;
 	color:#133062;
 	text-decoration: none;
 	}
 
-.bt li a:visted {
+.menu li a:visted {
 	color: #133062;
 	}
 
-.bt li a:hover {
+.menu li a:hover {
 	color: #794a28;
 	text-decoration: underline;
 	}
 
-.bt li a:active; {
+.menu li a:active; {
 	color: #f7e71e;
 	}
 
 
-li{
-	position:relative;
-	font-size: 1em;
-	}
+
 
 ul. submenu (:not-first-child) {
-		padding-top: 10px;
+		padding-top: 7px;
 }
 ul.submenu {
 	margin-top: -7px;
 	position:absolute;
-	left:-9000em;
-	z-index:1;
-	width: 100px;
-	background-color: #aaacb1;
-	-moz-box-shadow: 	1px 1px 5px #172742, -1px -1px 5px #172742; 
-	-o-box-shadow:		1px 1px 5px #172742, -1px -1px 5px #172742; 
-	-webkit-box-shadow: 1px 1px 5px #172742, -1px -1px 5px #172742;
-	box-shadow: 		1px 1px 5px #172742, -1px -1px 5px #172742; 
+	left:-5000em;
+	width: 120px;
+	/*text-shadow:1px 1px 1px #172742;*/
 	}
 
 .topmenu li:hover ul{
-	left:0;
+	left:-30px;
 	}  
 
 ul.submenu li {
 	float:none;
-	font-size: 0.8em;
-	position:relative;
-	margin-top: 1px;
-	}
+	font-size: 0.9em;
+	/*position:relative;*/
+		}
+	
+	
 
-/*============body============*/
-
-
-
-
-.container a {
-	text-align: center;
-	color:#794a28;
-	text-decoration: none;
-	}
-
-
-.container a:visted {
-	color: #794a28;
-	}
-
-.container a:hover {
-	color: #15346b; 
-	}
-
-.container a:active; {
-	color: #f7e71e;
-	}
-
+/*=======meet animals=========*/
 
 #meet {
 	text-align: center;
@@ -211,9 +117,7 @@ footer {
 	border-top: solid 2px #aaacb1;
 	}
 
-#social_media {
-/*	float: left;*/
-	}
+
 
 #facebook {
 	padding-left: 50px;
@@ -264,38 +168,137 @@ footer p {
 	}
 
 
-.red ul {
+/*=========all content==============*/
+
+
+
+
+.container {
+	max-width: 100%;
+	background-color: rgba(170, 172, 178, 0.8);	
+	}
+
+
+	
+body {
+	font-family: 'Marcellus', serif;
+	background-image: url("../images/fur.png");
+	background-color: #a08462;
+	}
+
+
+p {
+	color: #794a28;
+	font-size: 1em;
+	line-height: 1.2em;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align: center;
+	clear: left; 
+	}
+
+.largep {
+	font-size: 1.3em;
+	line-height: 1.4em
+	}
+
+
+.container a {
+	text-align: center;
+	color:#794a28;
+	text-decoration: none;
+	}
+
+
+.container a:visted {
+	color: #794a28;
+	}
+
+.container a:hover {
+	color: #15346b; 
+	}
+
+.container a:active; {
+	color: #f7e71e;
+	}
+
+
+.container img (:not-first-child) {
+	margin-top: 10px;
+	-moz-box-shadow: 	1px 1px 5px #66676c, -1px -1px 5px #66676c; 
+	-o-box-shadow:		1px 1px 5px #66676c, -1px -1px 5px #66676c; 
+	-webkit-box-shadow: 1px 1px 5px #66676c, -1px -1px 5px #66676c;
+	box-shadow: 		1px 1px 5px #66676c, -1px -1px 5px #66676c; 	
+			}
+		
+.container img  {
+	margin-bottom:10px;
+	}	
+
+h2, h3, h4 {
+	font-family: 'Caesar Dressing', cursive;
+	color: #133062;
+	text-align: center;
+	}
+	
+h2 {
+	font-size: 1.8em;
+	}
+	
+ h3, h4 {
+	font-size: 1.4em;
+	}
+
+/*=============meet the animals=============*/
+
+
+
+.meet_pic ul li {
+	margin-left: 48.7333333333px;
+	float: left; 
+	}
+
+
+.meet_pic ul {
 	width: 95% /*946.2px*/; 
 	margin: 0 auto; 
 	padding: 10px;
 	overflow: hidden;
 	}
 
-.red ul li {
-	margin-left: 48.7333333333px;
-	float: left; 
-	}
-
-.gallery {
-	display: block;
-	}
 
 
-.green ul {
+/*============gallery===============*/
+
+
+.main_gallery ul {
 	width: 95%; /*946.2px; */
 	margin: 0 auto; 
 	padding: 10px;
 	overflow: hidden;
 	}
-
-.green ul li {
+	
+	
+.main_gallery ul li {
 	padding-left: 28.7333333px;
 	float: left; 
 	}
-
+	
 .animal {
 	display: block;
 	}
+
+
+/*===========figure out=============*/
+
+
+
+/*ul {
+	min-width: 60.240963855% 600px;
+	color: #794a28;
+}
+*/
+
 
 
 .fb-like-box { 
