@@ -14,11 +14,26 @@ body {
 	background-color: #a08462;
 	}
 
+
 h1 {
-	margin: 0px;
 	text-indent: -990000px;
 	}
+	
+h1 img {
+	float: left;
+	padding-left: 02.008032128% /*20px*/;
+	
+	}
 
+header {
+	width: 100%;
+	background-color: #aaacb1;
+	border-bottom: solid 2px #133062;
+	}
+
+
+
+	
 p {
 	color: #794a28;
 	font-size: 1em;
@@ -35,6 +50,7 @@ p {
 	}
 	
 .container img (:not-first-child) {
+	margin-top: 10px;
 	-moz-box-shadow: 	1px 1px 5px #66676c, -1px -1px 5px #66676c; 
 	-o-box-shadow:		1px 1px 5px #66676c, -1px -1px 5px #66676c; 
 	-webkit-box-shadow: 1px 1px 5px #66676c, -1px -1px 5px #66676c;
@@ -42,27 +58,21 @@ p {
 			}
 		
 .container img  {
-	display: block;
-	margin-top: 10px;
 	margin-bottom:10px;
 	}	
 
-h2 {
-	margin-left: auto;
- 	margin-right: auto;
+h2, h3, h4 {
 	font-family: 'Caesar Dressing', cursive;
 	color: #133062;
-	font-size: 1.8em;
 	text-align: center;
 	}
 	
+h2 {
+	font-size: 1.8em;
+	}
+	
  h3, h4 {
- 	margin-left: auto;
- 	margin-right: auto;
-	font-family: 'Caesar Dressing', cursive;
-	color: #133062;
 	font-size: 1.4em;
-	text-align: center;
 	}
 
 
@@ -75,21 +85,6 @@ h2 {
 
 /*========Header============*/
 
-header {
-	/*width: 100%;*/
-	margin: 0 auto;
-	background-color: #aaacb1;
-	border-bottom: solid 2px #133062;
-	}
-
-
-h1 img {
-	float: left;
-	max-width: 100%;
-	padding-left: 02.008032128% /*20px*/;
-	margin-right: 02.008032128% /*20px*/;
-	
-	}
 	
 /*====== nav ======*/
 
@@ -194,7 +189,6 @@ ul.submenu li {
 	text-align: center;
 	}
 
-
 .facts li {
 	list-style-type: circle;
 	}
@@ -218,7 +212,7 @@ footer {
 	}
 
 #social_media {
-	float: left;
+/*	float: left;*/
 	}
 
 #facebook {
