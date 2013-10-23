@@ -44,7 +44,7 @@ p {
 .container img  {
 	display: block;
 	margin-top: 10px;
-	max-width: 90%;
+	margin-bottom:10px;
 	}	
 
 h2 {
@@ -66,15 +66,17 @@ h2 {
 	}
 
 
-ul {
-	min-width: 60.240963855% /*600px*/;
+/*ul {
+	min-width: 60.240963855% 600px;
 	color: #794a28;
-	}
+}
+*/
+
 
 /*========Header============*/
 
 header {
-	width: 100%;
+	/*width: 100%;*/
 	margin: 0 auto;
 	background-color: #aaacb1;
 	border-bottom: solid 2px #133062;
@@ -86,7 +88,7 @@ h1 img {
 	max-width: 100%;
 	padding-left: 02.008032128% /*20px*/;
 	margin-right: 02.008032128% /*20px*/;
-	margin-top: -80px;
+	
 	}
 	
 /*====== nav ======*/
@@ -95,8 +97,6 @@ h1 img {
 #nav_bar_mobile {
 	display: none;
 	}
-
-
 
 #at a{
 	color: #red;
@@ -328,36 +328,27 @@ footer p {
 
 
 
-#logo_2 {
-	width: 70%;	
+#logo_2 {	
 	margin-left: auto;
 	margin-right: auto;	
 	}
-
+/*==========Nav Bar============*/
 #nav_bar_mobile {
 	display: block;
 	}	
 
 #nav_bar_mobile a {
-	color: #794a28;
 	font-size: 1.3em;
-	}
-
-
-#nav_bar_mobile ul {
-	list-style:none;
-	font-family: 'Caesar Dressing', cursive;
-	}
-
-#nav_bar_mobile li {
-		text-align: center;
-}
-
-#nav_bar_mobile li a {
-	line-height: 2em;
+	line-height: 1.5em;
 	color:#133062;
 	text-decoration: none;
 	}
+
+#nav_bar_mobile li {
+	list-style:none;
+	font-family: 'Caesar Dressing', cursive;
+	text-align: center;
+}
 
 #nav_bar_mobile li a:visted {
 	color: #133062;
@@ -373,12 +364,11 @@ footer p {
 	}
 
 
-
 #nav_bar {
 	display: none;
 	}
 
-
+/*===========end nav===========*/
 
 .youtube_player {	
 	min-width: 373.333333333px;
@@ -448,7 +438,6 @@ footer section {
 @media only screen and (max-width: 479px) {
 
 #logo_2 {
-	width: 80%;	
 	margin-left: auto;
 	margin-right: auto;	
 	}
@@ -458,6 +447,7 @@ footer section {
 	}
 	
 #nav_bar_mobile a {
+	text-align:center;
 	color: #794a28;
 	font-size: 1.4em;
 	}	
