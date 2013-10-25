@@ -6,6 +6,13 @@
 	-webkit-box-shadow: 1px 1px 5px #66676c, -1px -1px 5px #66676c;
 	box-shadow: 		1px 1px 5px #66676c, -1px -1px 5px #66676c; 	
 			}*/
+.ah {
+	
+	margin-left: auto;
+	margin-right: auto;
+
+}
+	
 		
 .at a{
 	color: green;
@@ -199,7 +206,6 @@ body {
 	background-color: #a08462;
 	background-image: url("../images/fur.png");
 	background-position:0 0;
-	background-attatchment: fixed;
 	}
 
 
@@ -324,8 +330,8 @@ header {
 
 
 .meet_pic ul li {
-	margin-left:0 2.575213133%;
-	margin-right:0 2.575213133%;
+	margin-left: 2.575213133%;
+	margin-right: 2.575213133%;
 }
 
 
