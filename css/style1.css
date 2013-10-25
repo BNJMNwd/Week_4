@@ -1,6 +1,11 @@
 /*=====Exotic Animal css=======*/
 
 
+
+#meet {
+	text-align: center;
+	}
+
 /*========Header============*/
 
 	
@@ -16,7 +21,7 @@ h1 img {
 
 header {
 	width: 100%;
-	/*height: 150px;*/  
+	height: 150px;
 	background-color: #aaacb1;
 	border-bottom: solid 2px #133062;
 	}
@@ -95,7 +100,7 @@ ul.submenu li {
 	text-align: center;
 	}
 
-.facts li {
+.facts ul li {
 	list-style-type: circle;
 	}
 
@@ -182,8 +187,10 @@ footer p {
 	
 body {
 	font-family: 'Marcellus', serif;
-	background-image: url("../images/fur.png");
 	background-color: #a08462;
+	background-image: url("../images/fur.png");
+	background-position:0 0;
+	background-attatchment: fixed;
 	}
 
 
@@ -202,6 +209,10 @@ p {
 	line-height: 1.4em
 	}
 
+.container li {
+	list-style-type: none;
+	
+	}
 
 .container a {
 	text-align: center;
@@ -224,7 +235,6 @@ p {
 
 
 .container img (:not-first-child) {
-	margin-top: 10px;
 	-moz-box-shadow: 	1px 1px 5px #66676c, -1px -1px 5px #66676c; 
 	-o-box-shadow:		1px 1px 5px #66676c, -1px -1px 5px #66676c; 
 	-webkit-box-shadow: 1px 1px 5px #66676c, -1px -1px 5px #66676c;
@@ -236,6 +246,7 @@ p {
 	}	
 
 h2, h3, h4 {
+	padding-top:10px;
 	font-family: 'Caesar Dressing', cursive;
 	color: #133062;
 	text-align: center;
@@ -254,17 +265,17 @@ h2 {
 
 
 .meet_pic ul li {
-	margin-left: 48.7333333333px;
+	margin-left: 5.150426266%; /* 48.7333333333px;*/
 	float: left; 
 	}
 
 
 .meet_pic ul {
-	width: 95% /*946.2px*/; 
+	width: 100%;
 	margin: 0 auto; 
-	padding: 10px;
 	overflow: hidden;
 	}
+
 
 
 
@@ -279,14 +290,6 @@ h2 {
 	}
 	
 	
-.main_gallery ul li {
-	padding-left: 28.7333333px;
-	float: left; 
-	}
-	
-.animal {
-	display: block;
-	}
 
 
 /*===========figure out=============*/
@@ -323,12 +326,24 @@ h2 {
    
 @media only screen and (max-width: 767px) {
 
+header {
+	height: 340px;
+	}
+
+
+.meet_pic ul li {
+	margin-left:0 2.575213133%;
+	margin-right:0 2.575213133%;
+}
+
 
 
 #logo_2 {	
 	margin-left: auto;
 	margin-right: auto;	
 	}
+	
+	
 /*==========Nav Bar============*/
 #nav_bar_mobile {
 	display: block;
@@ -346,6 +361,7 @@ h2 {
 	font-family: 'Caesar Dressing', cursive;
 	text-align: center;
 }
+
 
 #nav_bar_mobile li a:visted {
 	color: #133062;
@@ -434,6 +450,19 @@ footer section {
 
 @media only screen and (max-width: 479px) {
 
+
+header {
+	height: 356px;
+	}
+
+
+
+.meet_pic ul li {
+	margin-left:0 2.575213133%;
+	margin-right:0 2.575213133%;
+}
+
+
 #logo_2 {
 	margin-left: auto;
 	margin-right: auto;	
@@ -457,9 +486,7 @@ footer section {
 
 #nav_bar_mobile li {
 		text-align: center;
-
 	}
-
 
 #nav_bar_mobile li a {
 	line-height: 2em;
@@ -481,19 +508,8 @@ footer section {
 	}
 
 
-
-
-
 #nav_bar {
 	display: none;
-	}
-
-
-
-
-.youtube_player {
-min-width: 186.666666667px;
-min-height: 130px;
 	}
 
 
@@ -505,29 +521,6 @@ min-height: 130px;
 	}
 
 
-.pcenter{
-		margin-left: auto;
-		margin-right: auto;
-		padding-left: 10px; 
-		padding-right: 10px; 
-	}
-
-header img {
-	float: none;
-	padding-left: 02.008032128% /*20px*/;
-	margin-right: 02.008032128% /*20px*/;
-	margin-top: -80px;
-	}
-
-.green ul {
-	width: 90%; 
-	margin: 0 auto; 
-	padding-top: 10px;
-	
-.green ul li {
-	padding-left: 10%;
-	padding-right: 10%;
-	}
 
 
 /*====== nav ======*/
