@@ -1,6 +1,20 @@
 /*=====Exotic Animal css=======*/
 
-
+/*.container img {
+	-moz-box-shadow: 	1px 1px 5px #66676c, -1px -1px 5px #66676c; 
+	-o-box-shadow:		1px 1px 5px #66676c, -1px -1px 5px #66676c; 
+	-webkit-box-shadow: 1px 1px 5px #66676c, -1px -1px 5px #66676c;
+	box-shadow: 		1px 1px 5px #66676c, -1px -1px 5px #66676c; 	
+			}*/
+		
+.at a{
+	color: green;
+	font-size: 1.2em;
+	}		
+		
+.container img  {
+	margin-bottom:10px;
+	}	
 
 #meet {
 	text-align: center;
@@ -27,11 +41,7 @@ header {
 	}
 
 	
-/*====== nav ======*/
-.at a{
-	color: green;
-	font-size: 1.3em;
-	}
+
 
 #nav_bar_mobile {
 	display: none;
@@ -71,15 +81,12 @@ header {
 
 
 
-ul. submenu (:not-first-child) {
-		padding-top: 7px;
-}
 ul.submenu {
 	margin-top: -7px;
 	position:absolute;
 	left:-5000em;
-	width: 120px;
-	/*text-shadow:1px 1px 1px #172742;*/
+	width: 130px;
+
 	}
 
 .topmenu li:hover ul{
@@ -89,7 +96,7 @@ ul.submenu {
 ul.submenu li {
 	float:none;
 	font-size: 0.9em;
-	/*position:relative;*/
+	background-color: #aaacb1;
 		}
 	
 	
@@ -234,16 +241,7 @@ p {
 	}
 
 
-.container img (:not-first-child) {
-	-moz-box-shadow: 	1px 1px 5px #66676c, -1px -1px 5px #66676c; 
-	-o-box-shadow:		1px 1px 5px #66676c, -1px -1px 5px #66676c; 
-	-webkit-box-shadow: 1px 1px 5px #66676c, -1px -1px 5px #66676c;
-	box-shadow: 		1px 1px 5px #66676c, -1px -1px 5px #66676c; 	
-			}
-		
-.container img  {
-	margin-bottom:10px;
-	}	
+
 
 h2, h3, h4 {
 	padding-top:10px;
@@ -293,14 +291,6 @@ h2 {
 
 
 /*===========figure out=============*/
-
-
-
-/*ul {
-	min-width: 60.240963855% 600px;
-	color: #794a28;
-}
-*/
 
 
 
