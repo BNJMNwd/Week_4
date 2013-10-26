@@ -6,27 +6,16 @@
 	-webkit-box-shadow: 1px 1px 5px #66676c, -1px -1px 5px #66676c;
 	box-shadow: 		1px 1px 5px #66676c, -1px -1px 5px #66676c; 	
 			}*/
-.ah {
-	
-	margin-left: auto;
-	margin-right: auto;
-
-}
-	
 		
 .at a{
-	color: green;
 	font-size: 1.2em;
 	}		
 		
 .container img  {
+	margin-bottom:10px;
 	margin-left:auto;
 	margin-right:auto;
-	margin-bottom:10px;
-	}	
 
-#meet {
-	text-align: center;
 	}
 
 /*========Header============*/
@@ -49,7 +38,6 @@ header {
 	border-bottom: solid 2px #133062;
 	}
 
-	
 
 
 #nav_bar_mobile {
@@ -89,7 +77,6 @@ header {
 
 
 
-
 ul.submenu {
 	margin-top: -7px;
 	position:absolute;
@@ -105,7 +92,7 @@ ul.submenu {
 ul.submenu li {
 	float:none;
 	font-size: 0.9em;
-	background-color: #aaacb1;
+	background-color: rgba(170, 172, 178, 0.8);	
 		}
 	
 	
@@ -249,8 +236,6 @@ p {
 	}
 
 
-
-
 h2, h3, h4 {
 	padding-top:10px;
 	font-family: 'Caesar Dressing', cursive;
@@ -266,46 +251,6 @@ h2 {
 	font-size: 1.4em;
 	}
 
-/*=============meet the animals=============*/
-
-
-
-.meet_pic ul li {
-	margin-left: 5.150426266%; /* 48.7333333333px;*/
-	float: left; 
-	}
-
-
-.meet_pic ul {
-	width: 100%;
-	margin: 0 auto; 
-	overflow: hidden;
-	}
-
-
-
-
-/*============gallery===============*/
-
-
-.main_gallery ul {
-	width: 95%; /*946.2px; */
-	margin: 0 auto; 
-	padding: 10px;
-	overflow: hidden;
-	}
-	
-	
-
-
-/*===========figure out=============*/
-
-
-
-.fb-like-box { 
-	display: block; 
-	margin: 0 auto; 
-	}
 
 .youtube_player { 
 	display: block;
@@ -329,13 +274,6 @@ header {
 	}
 
 
-.meet_pic ul li {
-	margin-left: 2.575213133%;
-	margin-right: 2.575213133%;
-}
-
-
-
 #logo_2 {	
 	margin-left: auto;
 	margin-right: auto;	
@@ -343,6 +281,7 @@ header {
 	
 	
 /*==========Nav Bar============*/
+
 #nav_bar_mobile {
 	display: block;
 	}	
@@ -381,34 +320,13 @@ header {
 
 /*===========end nav===========*/
 
-.youtube_player {	
-	min-width: 373.333333333px;
-	min-height: 210px;
-	}
 
 
-.pcenter{
-		margin-left: auto;
-		margin-right: auto;
-		padding-left: 10px; 
-	}
 
 header img {
-	float: none;
-	padding-left: 02.008032128% /*20px*/;
-	margin-right: 02.008032128% /*20px*/;
 	margin-top: -80px;
 	}
 	
-
-.pcenter{
-		margin-left: auto;
-		margin-right: auto;
-		padding-left: 30px; 
-		padding-right: 30px; 
-	}
-
-/*====== nav ======*/
 
 
 #leslie {
@@ -424,19 +342,6 @@ footer section {
 	padding-bottom: 25px;
 	}
 
-.green ul {
-	width: 90%; 
-	margin: 0 auto; 
-	padding-top: 10px;
-	}
-		
-.green ul li {
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 20%;
-	padding-right: 20%;
-	clear: left; 
-	}
 
 }
 
@@ -452,7 +357,6 @@ footer section {
 header {
 	height: 356px;
 	}
-
 
 
 .meet_pic ul li {
@@ -511,12 +415,7 @@ header {
 	}
 
 
-.container img {
-	clear: left; 
-	width: 90%;
-	margin-left: auto; 
-	margin-right: auto;
-	}
+
 
 
 
