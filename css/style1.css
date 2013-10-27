@@ -1,22 +1,14 @@
 /*=====Exotic Animal css=======*/
 
-/*.container img {
-	-moz-box-shadow: 	1px 1px 5px #66676c, -1px -1px 5px #66676c; 
-	-o-box-shadow:		1px 1px 5px #66676c, -1px -1px 5px #66676c; 
-	-webkit-box-shadow: 1px 1px 5px #66676c, -1px -1px 5px #66676c;
-	box-shadow: 		1px 1px 5px #66676c, -1px -1px 5px #66676c; 	
-			}*/
-		
-.at a{
-	font-size: 1.2em;
-	}		
-		
-.container img  {
-	margin-bottom:10px;
-	margin-left:auto;
-	margin-right:auto;
 
-	}
+	
+	
+			
+				
+.at a{
+		font-size: 1.3em;
+	}		
+	
 
 /*========Header============*/
 
@@ -40,55 +32,54 @@ header {
 
 
 
-#nav_bar_mobile {
-	display: none;
-	}
-
-
-.menu ul li{
+header ul li{
+	text-align: center;
+	line-height: 2.5em;
+	display:block;
+	padding-left: 10px;
+	padding-right: 10px;
 	float:left;
 	list-style:none;
 	font-family: 'Caesar Dressing', cursive;
 	position:relative;
 	font-size: 1em;
 	}
+	
+	
+	
+	
 
-.menu li a {
-	display:block;
-	padding-left: 10px;
-	padding-right: 10px;
-	line-height: 2.5em;
-	color:#133062;
+ #test a {
+	color: #15346b;
 	text-decoration: none;
 	}
 
-.menu li a:visted {
-	color: #133062;
+ #test a:visted {
+	color: #15346b;
 	}
 
-.menu li a:hover {
+#test a:hover {
 	color: #794a28;
 	text-decoration: underline;
 	}
 
-.menu li a:active; {
-	color: #f7e71e;
-	}
+#test  a:active; {
+	color: red;
+}
+	
 
 
+.topmenu li:hover ul{
+	left:-30px;
+	}  
 
 ul.submenu {
 	margin-top: -7px;
 	position:absolute;
 	left:-5000em;
 	width: 130px;
-
 	}
-
-.topmenu li:hover ul{
-	left:-30px;
-	}  
-
+	
 ul.submenu li {
 	float:none;
 	font-size: 0.9em;
@@ -96,7 +87,10 @@ ul.submenu li {
 		}
 	
 	
-
+#nav_bar_mobile {
+	display: none;
+	}
+	
 /*=======meet animals=========*/
 
 #meet {
@@ -136,7 +130,7 @@ footer {
 	padding-left: 50px;
 	}
 
-footer a {
+footer a:link {
 	color:#aaacb1;
 	text-decoration: none;
 	}
@@ -211,30 +205,28 @@ p {
 	line-height: 1.4em
 	}
 
-.container li {
-	list-style-type: none;
+.img_center {
+	text-align: center;
 	
 	}
 
-.container a {
-	text-align: center;
-	color:#794a28;
-	text-decoration: none;
+main img {
+	-moz-box-shadow: 	1px 1px 5px #66676c, -1px -1px 5px #66676c; 
+	-o-box-shadow:		1px 1px 5px #66676c, -1px -1px 5px #66676c; 
+	-webkit-box-shadow: 1px 1px 5px #66676c, -1px -1px 5px #66676c;
+	box-shadow: 		1px 1px 5px #66676c, -1px -1px 5px #66676c; 	
+	margin-bottom:5px;
+			}
+			
+			
+main a:link {color:#794a28; text-decoration: none;}    
+main a:visited {color:#794a28;} 
+main a:hover {color:#15346b;}  
+main a:active {color:#f7e71e;} 
+
+.container li {
+	list-style-type: none;	
 	}
-
-
-.container a:visted {
-	color: #794a28;
-	}
-
-.container a:hover {
-	color: #15346b; 
-	}
-
-.container a:active; {
-	color: #f7e71e;
-	}
-
 
 h2, h3, h4 {
 	padding-top:10px;
@@ -259,6 +251,8 @@ h2 {
 	max-width: 90%;
 	margin: 0 auto; 
 	}
+
+
 
 
 
@@ -413,8 +407,6 @@ header {
 #nav_bar {
 	display: none;
 	}
-
-
 
 
 
