@@ -47,7 +47,6 @@ header ul li{
 	
 	
 	
-	
 
  #test a {
 	color: #15346b;
@@ -287,6 +286,7 @@ header {
 
 #nav_bar_mobile {
 	display: block;
+	text-align: center;
 	}	
 
 #nav_bar_mobile a {
@@ -298,6 +298,8 @@ header {
 	}
 
 #nav_bar_mobile li {
+		text-align:center;
+
 	clear: both;
 	font-size: 1em;
 	list-style:none;
