@@ -4,11 +4,7 @@
 	
 	
 			
-				
-.at a{
-		font-size: 1.3em;
-	}		
-	
+
 
 /*========Header============*/
 
@@ -30,7 +26,11 @@ header {
 	border-bottom: solid 2px #133062;
 	}
 
-
+				
+.at a{
+		font-size: 1.3em;
+	}		
+	
 
 header ul li{
 	text-align: center;
@@ -67,7 +67,6 @@ header ul li{
 	color: red;
 }
 	
-
 
 .topmenu li:hover ul{
 	left:-30px;
@@ -263,8 +262,18 @@ h2 {
    
 @media only screen and (max-width: 767px) {
 
+
+
+.youtube_player { 
+	display: block;
+	min-width: 373.333333px;
+	min-height: 280px;
+	max-width: 90%;
+	margin: 0 auto; 
+	}
+	
 header {
-	height: 340px;
+	height: 390px;
 	}
 
 
@@ -281,6 +290,7 @@ header {
 	}	
 
 #nav_bar_mobile a {
+	text-align: center;
 	font-size: 1.3em;
 	line-height: 1.5em;
 	color:#133062;
@@ -288,9 +298,10 @@ header {
 	}
 
 #nav_bar_mobile li {
+	clear: both;
+	font-size: 1em;
 	list-style:none;
 	font-family: 'Caesar Dressing', cursive;
-	text-align: center;
 }
 
 
@@ -316,11 +327,9 @@ header {
 
 
 
-
 header img {
 	margin-top: -80px;
 	}
-	
 
 
 #leslie {
@@ -347,7 +356,14 @@ footer section {
 
 @media only screen and (max-width: 479px) {
 
-
+.youtube_player { 
+	display: block;
+	min-width: 280px;
+	min-height: 210px;
+	max-width: 90%;
+	margin: 0 auto; 
+	}
+	
 header {
 	height: 356px;
 	}
@@ -369,9 +385,9 @@ header {
 	}
 	
 #nav_bar_mobile a {
-	text-align:center;
+	text-align: center;
 	color: #794a28;
-	font-size: 1.4em;
+	font-size: 1.3em;
 	}	
 
 
@@ -380,9 +396,6 @@ header {
 	font-family: 'Caesar Dressing', cursive;
 	}
 
-#nav_bar_mobile li {
-		text-align: center;
-	}
 
 #nav_bar_mobile li a {
 	line-height: 2em;
@@ -407,13 +420,6 @@ header {
 #nav_bar {
 	display: none;
 	}
-
-
-
-
-
-/*====== nav ======*/
-
 
 
 
